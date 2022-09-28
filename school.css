@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+    opacity: 50;
+    
+}
+@font-face{
+    font-family: vga;
+    src: url(Flexi_IBM_VGA_True.ttf)
+}
+.tab{
+
+overflow: hidden;
+  border: 1px solid #ccc;
+  background-color:#77DBFF; 
+    opacity: 50;
+}
+.tab button {
+    
+    font-family: vga;
+    font-size: 18px;
+  background-color: pink;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    position:relative; top:20px;
+  background-color: #ddd;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+    
+}
+@font-face {
+    font-family: 'wakuwaku';
+    src: url(mini-wakuwaku.otf)
+}
